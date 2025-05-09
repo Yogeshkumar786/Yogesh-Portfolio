@@ -25,6 +25,13 @@ const Internships = () => {
             Worked on analyzing diesel engine performance and efficiency. Conducted tests and collected data to optimize engine operations.
           </p>
         </div>
+        <div className="bg-white p-6 rounded-lg shadow-sm">
+          <h3 className="text-xl font-semibold mb-2">Internship in NLP at NIT Warangal</h3>
+          <p className="text-gray-500 mb-4">July 2024</p>
+          <p className="text-gray-700">
+            Learned the concept of NLP and mainly focused on generative and descriptive models.
+          </p>
+        </div>
       </div>
     </div>
   );
