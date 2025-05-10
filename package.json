@@ -11,7 +11,7 @@
     "preview": "vite preview"
 
     
-    "buildCommand": "vite build",
+    ,"buildCommand": "vite build",
     "outputDirectory": "dist",
     "framework": "vite"
 
