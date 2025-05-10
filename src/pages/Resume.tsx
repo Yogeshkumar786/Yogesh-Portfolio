@@ -1,4 +1,3 @@
-
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
@@ -17,11 +16,11 @@ const Resume = () => {
           <h1 className="text-3xl font-playfair font-bold text-gray-900">Yogesh Kumar</h1>
           <p className="text-gray-600 mt-2">Computer Science Engineer</p>
           <div className="flex justify-center space-x-4 mt-4 text-sm text-gray-700">
-            <span>yogeshkumarmaliksinghjat200@gmail.com</span>
+            <span>422275@student.nitandhra.ac.in</span>
             <span>•</span>
             <span>+91 9306000458</span>
             <span>•</span>
-            <span>Ambala, Haryana, India</span>
+            <span>Rohtak, Haryana, India</span>
           </div>
         </div>
         
@@ -31,8 +30,10 @@ const Resume = () => {
         <div className="mb-8">
           <h2 className="text-xl font-semibold mb-3 text-portfolio-green border-b pb-1">Objective</h2>
           <p className="text-gray-700">
-            As a bachelor's student, I am seeking a career in Computer Science and Engineering. I am passionate 
-            about expanding my knowledge and developing a diverse set of multi-disciplinary skills relevant to the field.
+            As a bachelor’s student, I am seeking a career in Computer Science and Engineering. I am passionate 
+            about expanding my knowledge and developing a diverse set of multi-disciplinary skills relevant to the field. 
+            With a motivated attitude & compatible nature, I am committed to excelling in the field & eager to 
+            contribute to the computer science industry and help drive innovation forward.
           </p>
         </div>
         
@@ -79,7 +80,10 @@ const Resume = () => {
             
             <div>
               <h3 className="font-medium mb-2">Tools & Concepts</h3>
-              <p className="text-gray-700">Microsoft Excel, DSA, ML, UI/UX Design</p>
+              <p className="text-gray-700">
+                Microsoft Excel, DSA, ML, Deep Learning, UI/UX Design, Operating System Algorithms, 
+                Design Thinking, Problem Solving, 3D Modelling
+              </p>
             </div>
           </div>
         </div>
@@ -88,6 +92,51 @@ const Resume = () => {
         <div className="mb-8">
           <h2 className="text-xl font-semibold mb-3 text-portfolio-green border-b pb-1">Projects</h2>
           
+          <div className="mb-4">
+            <div className="flex justify-between">
+              <h3 className="font-medium">SmartDrive - Telematic Control Unit</h3>
+              <span className="text-gray-600">2023</span>
+            </div>
+            <ul className="list-disc pl-5 mt-1 text-gray-700">
+              <li>Developed an automatic analysing system using ESP-32 and sensors</li>
+              <li>Sensors captured vehicle data which was uploaded to a custom database</li>
+              <li>Project was built for SIH 2023</li>
+            </ul>
+          </div>
+
+          <div className="mb-4">
+            <div className="flex justify-between">
+              <h3 className="font-medium">Live Gas Analyzer</h3>
+              <span className="text-gray-600">2023</span>
+            </div>
+            <ul className="list-disc pl-5 mt-1 text-gray-700">
+              <li>Device alerts when vehicle gas emissions exceed safe limits</li>
+              <li>Built as part of innovation competition (VisionaThon)</li>
+            </ul>
+          </div>
+
+          <div className="mb-4">
+            <div className="flex justify-between">
+              <h3 className="font-medium">Digital-Ballot</h3>
+              <span className="text-gray-600">2022</span>
+            </div>
+            <ul className="list-disc pl-5 mt-1 text-gray-700">
+              <li>Online voting website with authentication system</li>
+              <li>Designed secure and accessible web interface</li>
+            </ul>
+          </div>
+
+          <div className="mb-4">
+            <div className="flex justify-between">
+              <h3 className="font-medium">Mentor-Mentee Web Application</h3>
+              <span className="text-gray-600">2023</span>
+            </div>
+            <ul className="list-disc pl-5 mt-1 text-gray-700">
+              <li>Connects students with faculty for academic interaction</li>
+              <li>Students can post queries and receive mentorship</li>
+            </ul>
+          </div>
+
           <div className="mb-4">
             <div className="flex justify-between">
               <h3 className="font-medium">Smart Home Automation System</h3>
@@ -112,11 +161,30 @@ const Resume = () => {
             </ul>
           </div>
         </div>
-        
+
+        {/* Internship */}
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-3 text-portfolio-green border-b pb-1">Internship</h2>
+          <div className="flex justify-between">
+            <h3 className="font-medium">Diesel Engine Analysis - ABR ROADLINES PVT. LTD.</h3>
+            <span className="text-gray-600">Dec 2023</span>
+          </div>
+          <p className="text-gray-700 pl-5 mt-1">Performed engine diagnostics and operational efficiency analysis on heavy-duty diesel engines.</p>
+        </div>
+
+        {/* Positions of Responsibility */}
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-3 text-portfolio-green border-b pb-1">Positions of Responsibility</h2>
+          <ul className="list-disc pl-5 text-gray-700">
+            <li>Executive Member, CSE Association – Managed and organized departmental events.</li>
+            <li>Executive Member, Innovation and Entrepreneurship Cell – Organized college events and promotional campaigns.</li>
+          </ul>
+        </div>
+
         {/* Languages */}
         <div>
           <h2 className="text-xl font-semibold mb-3 text-portfolio-green border-b pb-1">Languages</h2>
-          <p className="text-gray-700">Hindi (Native), English (Fluent), Punjabi (Intermediate)</p>
+          <p className="text-gray-700">Hindi (Native), English (Professional), Punjabi (Limited)</p>
         </div>
         
         <div className="mt-10 text-center">
