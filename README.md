@@ -33,8 +33,10 @@ To run this project locally:
 
 git clone https://github.com/Yogeshkumar786/Yogesh-Portfolio.git
 cd Yogesh-Portfolio
+
 **2. Install Dependencies**
 npm install
+
 **3. Start the Development Server**
 npm run dev
 Then open your browser and go to http://localhost:8080
@@ -44,6 +46,7 @@ npm run dev        # Start development server
 npm run build      # Build for production
 npm run preview    # Preview production build
 npm run lint       # Run code linter
+
 **📁 Project Structure**
 public/             # Static files (e.g., images like /myself.png)
 src/
