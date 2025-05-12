@@ -73,7 +73,9 @@ Computer Science Engineer passionate about real-world problem solving, clean cod
 
 **📬 Contact**
 📧 Email: yogeshkumarmaliksinghjat200@gmail.com
+
 💼 LinkedIn: linkedin.com/in/yogesh-kumar-b93817257
+
 💻 GitHub: github.com/Yogeshkumar786
 
 Let me know if you'd like this turned into a downloadable file or if you want badges or project images added.
